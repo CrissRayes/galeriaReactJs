@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = (props) => {
+  const { description } = props;
   return (
-    <div>
-      <h4>Imágenes de planetas</h4>
-      <button>Botón a confirmar si va acá</button>
-    </div>
+    <footer className='bg-dark text-white text-center p-5'>
+      <h4>{description}</h4>
+    </footer>
   );
 };
 
