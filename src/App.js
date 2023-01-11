@@ -12,19 +12,19 @@ function App () {
       />
       <div className='d-flex justify-content-around mb-5'>
         <Card
-          src='https://picsum.photos/200/300'
-          title='Imagen 1'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+          src='https://picsum.photos/id/14/200/200'
+          title='Playa'
+          description='Fotografía de paisaje hecha por Paul Jarvis'
         />
         <Card
-          src='https://picsum.photos/200/300'
-          title='Imagen 2'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+          src='https://picsum.photos/id/17/200/200'
+          title='Paisaje Rural'
+          description='Fotografía de paisaje rural hecha por Paul Jarvis'
         />
         <Card
-          src='https://picsum.photos/200/300'
-          title='Imagen 3'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.'
+          src='https://picsum.photos/id/24/200/200'
+          title='Libro'
+          description='Fotografía de libro hecha por Alejandro Escamilla'
         />
       </div>
       <Footer
